@@ -7,6 +7,7 @@ body{
  }
 
 img{
+	position: relative;
    float: left;
    padding-right: 15px;
    padding-bottom: 15px;
@@ -15,7 +16,31 @@ img{
 h2 {
 	color: #4aaaa5;
 	font-size: 1.5em;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #cccccc;
 }
+
+p{
+	line-height: 1.5em;
+	font-size: 1.25em;
+}
+
+.overlap{
+	position: absolute;
+	background-color: #4aaaa5;
+	width: 73%;
+	top: 70%;
+	font-size: 2em;
+	color: #eee;
+	text-align: center;
+}
+
+.btn{
+	background-color: #4aaaa5;
+	color: #eee;
+	margin: 0 0 10px 0;
+}
+
 .navbar-brand {
     background-color: #4aaaa5;
 }
